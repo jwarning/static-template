@@ -1,0 +1,9 @@
+/* note: this uses precss and cssnext syntax */
+
+@import '../lib/normalize.css';
+
+.container {
+  min-width: 300px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}

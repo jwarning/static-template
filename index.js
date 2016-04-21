@@ -1,0 +1,15 @@
+import 'babel-polyfill'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './components/App'
+
+import './styles/index.css'
+
+function render() {
+  ReactDOM.render(
+    <App />,
+    document.getElementById('app')
+  )
+}
+
+render()
